@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Content">
+        <SwitchPreferenceCompat
+            app:key="child_option"
+            app:summaryOff="Content is unfiltered."
+            app:summaryOn="Content is filtered for young audiences."
+            app:title="Child-friendly content" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Display">
+        <ListPreference
+            app:entries="@array/oceandeep_themes"
+            app:entryValues="@array/oceandeep_themes"
+            app:key="oceandeep_themes_key"
+            app:summary="Choose a theme of your liking"
+            app:title="Themes"
+            app:defaultValue="Ocean Deep"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Music and Sounds">
+
+        <SwitchPreferenceCompat
+            app:key="music_volume_switch"
+            app:title="Music"
+            app:defaultValue="true"/>
+
+        <SeekBarPreference
+            app:dependency="music_volume_switch"
+            app:key="music_volume_seekbar"
+            app:title="Music Volume"
+            app:showSeekBarValue="true"
+            app:defaultValue="50"/>
+
+        <SwitchPreferenceCompat
+            app:key="sounds_volume_switch"
+            app:title="Sounds"
+            app:defaultValue="true"/>
+
+        <SeekBarPreference
+            app:dependency="sounds_volume_switch"
+            app:key="sounds_volume_seekbar"
+            app:title="Sounds Volume"
+            app:showSeekBarValue="true"
+            app:defaultValue="20"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

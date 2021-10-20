@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C1_Adult">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="'Cannibal' Shark Eats Its Siblings In The Womb"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_01a" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Wendell Reed/Flickr"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="In one of nature's most extreme cases of sibling rivalry, the sand tiger shark (Carcharias taurus) is the only shark on Earth that devours its younger brothers and sisters while still in the womb.
+    \”One embryo was found in its larger sibling's throat. We actually caught one that was in the process of eating another when it died,\” shark scientist Demian Chapman of SUNY, Stony Brook told Business Insider.\n\n
+    Embryonic cannibalism
+    Scientists were already aware of the behavior, which they call embryonic cannibalism. But Chapman and his team have found genetic evidence that the shark's murdered siblings are actually its half-brothers and -sisters, not full siblings. .\n\n
+
+    These older cannibalistic hatchlings are typically fathered by a different male than the younger embryos they devour.
+    The researchers' tests suggest that sexual competition among male sand tigers continues well after the sperm has fertilized the egg — their sons and daughters are left to fight it out, too. .\n\n
+
+    Observations by scientists and genetic studies have shown evidence of polyandry in other shark species, but this is the first evidence that female sand tiger sharks also can carry babies fathered by multiple males at once. .\n\n
+
+    Testing for paternity
+    Chapman and his colleagues took DNA samples from pregnant sand tiger sharks caught in nets to keep them from the shore on the coast of South Africa. Pregnant females are extremely uncommon — it took five years to collect 15 samples. .\n\n
+
+    The researchers then ran paternity tests on the embryos.
+    " />
+
+            <ImageView
+                android:id="@+id/id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_01b" />
+
+            <TextView
+                android:id="@+id/fgfg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Wendell Reed/Flickr"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/jj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="\”It's the exact same sort of thing people might see on the \”Maury Povich\” show,\” Chapman said. \”Then we had measurements of the embryos, so we knew which ones were cannibalizing the other ones.\” .\n\n
+
+    The evidence confirmed that female sand tigers mate with multiple males, and because of their long gestation period, could have offspring from many different fathers. From this, Chapman and his team have hypothesized that the eggs fertilized first have a distinct advantage over later ones. .\n\n
+
+    Sibling rivalry
+    Devouring their younger siblings gives these pups extra energy to grow very rapidly. Typically about a meter in length when they are born, their unusually large size helps keeps them from being eaten by larger sharks or fish.  .\n\n
+
+    \”Other sharks, when they are born are usually about 50 to 60 centimeters, so this is much much bigger,\” Chapman said. \”There are very few predators that can tackle a newborn sand tiger.\” .\n\n
+
+    Moreover, sand tiger sharks have two uteri, so a a healthy female is usually carrying two meter-length pups that are both separately consuming all their uterus-sharing siblings.  .\n\n
+
+    Benefits of birthing cannibals
+    \”The idea is that the females are heavily investing in very large offspring, so they are not likely to be killed by other predators,\” Chapman said. \”So part of that investment is that these other embryos are being produced, being killed, and fueling this rapid growth.\” .\n\n
+
+    But this startling behavior — unknown in any other species of shark — may help out Mom as well.  .\n\n
+
+    Male sharks often bite females during mating, causing some nasty wounds which take energy to repair. But, resisting the males may hurt females even more. .\n\n
+
+    Females are choosy about who they mate with, and the embryonic cannibalism may also allow them to accommodate later suitors without having to invest anything in the offspring of less appealing mates. .
+    \n\nhttps://www.businessinsider.com/cannibal-sand-tiger-shark-eats-siblings-2013-4
+    " />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<resources>
+
+    <color name="red">#D8163E</color>
+    <color name="ocean_deep_blue">#03A9F4</color>
+    <color name="gray">#909597</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#108CC5</item>108CC5
+        <item name="colorPrimaryDark">#2D8C9E</item>
+        <item name="android:colorBackground">@color/ocean_deep_blue</item>
+        <item name="colorAccent">@color/gray</item>
+    </style>
+
+    <style name="MainScreenAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#108CC5</item>108CC5
+        <item name="colorPrimaryDark">#2D8C9E</item>
+        <item name="android:colorBackground">@color/ocean_deep_blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#108CC5</item>108CC5
+        <item name="colorPrimaryDark">#2D8C9E</item>
+        <item name="android:colorBackground">@color/ocean_deep_blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#D8163E</item>
+        <item name="colorPrimaryDark">#BD0F33</item>
+        <item name="android:colorBackground">@color/red</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="OceanDeepTheme" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#4CAF50</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C11_Child">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/generateNextTreasureButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THE FISH ARE EATING A LOT OF PLASTIC! "
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_11a" />
+            <TextView
+                android:id="@+id/www"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="(pic = http://plastinography.org/lesson5/how-does-plastic-impact-marine-life.html)" />
+
+
+            <TextView
+                android:id="@+id/qqq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="With over seven million tons of plastic winding up in the ocean each year, it’s inevitable that a lot of it winds up as part of an unwelcome addition to a fish’s diet. For fish in the northern Pacific, researchers at the University of California, San Diego once estimated they swallow between 12,000 and 24,000 tons every year.
+\n\nhttps://www.mentalfloss.com/article/501254/25-things-you-didnt-know-about-worlds-oceans" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/generateNextTreasureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_treasure_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

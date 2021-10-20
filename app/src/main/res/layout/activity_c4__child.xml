@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C4_Child">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/generateNextTreasureButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Why does Nemo the clownfish have three white stripes? The riddle solved at last."
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_04a" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A three-banded clownfish (Amphiprion ocellaris) navigates the anemones of the Andaman Coral Reef, India. Ritiks/Wikipedia, CC BY"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Coral fish are known for their great diversity of colours and patterns, each more surprising than the next. Examples include the copperband butterflyfish (Chelmon rostratus, which has a black \”eye\” on its body), the blue tang (Paracanthurus hepatus) and the Picasso triggerfish (Rhinecanthus aculeatus), whose name is linked to the patterns of bright colours on its sides."
+                />
+
+            <ImageView
+                android:id="@+id/id2"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_04b" />
+
+            <TextView
+                android:id="@+id/ggj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="The dazzling variety of coral fish. On the left is the copperband butterflyfish, on the right the Picasso triggerfish. J.E. Randall, Author provided"
+                />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One of the most famous examples of coral fish is the clownfish, which starred in the animated Pixar film Finding Nemo in 2003. This small fish, which lives in symbiosis with the sea anemone, is easily recognisable thanks to its bright orange body and wide white stripes.\n
+
+            Despite the coral fishes’ popularity and wide distribution, we do not understand yet why they have such myriad and different colour patterns. More precisely, how are the patterns formed and what are the roles of the colours? To answer these questions, a research team from the Banyuls-sur-Mer Observatory (France) and the University of Liège (Belgium), decided to study the clownfish and its cousins. The study was published in the September 2018 edition of the journal BMC Biology.\n
+
+            Nemo, alias Amphiprion ocellaris, belongs to the clownfish group, which includes about 30 species. Their colour pattern is characterised by a yellow, orange, brown or black colour with vertical white stripes composed of light-reflecting cells called iridophores.\n
+
+            In addition to other physical characteristics, clownfish species are distinguished by their number of vertical white stripes. Thus, some species have no stripes (Amphiprion ephippium), only one (Amphiprion frenatus) or just two (Amphiprion sebae). Amphiprion ocellaris, the famous Nemo, has three stripes. What can explain the difference in the number of bands between these species?
+            "
+                />
+
+            <ImageView
+                android:id="@+id/bbbb"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_04c" />
+            <TextView
+                android:id="@+id/fss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Four clownfish illustrating the species’ colour patterns. From top to bottom and left to right: Amphiprion ephippium, Amphiprion frenatus, Amphiprion bicinctus and Amphiprion ocellaris. J.E. Randall, CC BY"
+                />
+            <TextView
+                android:id="@+id/fdre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Let’s count the stripes"
+                />
+            <TextView
+                android:id="@+id/ggn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To understand the mechanism leading to the diversity of pigment patterns, we grouped each clownfish species according to their number of vertical bands. Genetic analysis integrating the evolutionary history of clownfish revealed that their common ancestor had three white bands, and that during their diversification, clownfish lines successively lost the tail band, then the body band and finally the head band, thus giving four possible combinations:\n
+•	three bands (head, body and tail)\n
+•	two bands (head and body)\n
+•	one band (head alone)\n
+•	no band.
+\n
+Looking at the patterns that have developed, it’s clear that diversity is constrained: while the four combinations listed above are seen, biological mechanisms do not allow a species to have others – for example, a single stripe on the tail.
+"
+                />
+
+            <TextView
+                android:id="@+id/ghj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="And away they go over the course of evolution"
+                />
+            <TextView
+                android:id="@+id/ggn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To understand why some stripe combinations do not exist in clownfish, we looked at the development of two species with two different coloured patterns in adulthood, A. ocellaris, which has three stripes, and A. frenatus, which has only one stripe, on its head.\n
+
+The stripes in A. ocellaris appear in a well-defined order during its transformation from larva to young adult – first that of the head, then the body and finally on the tail. That is, in the reverse order that they disappeared for some species during the process of evolution.\n
+
+A second surprising observation was that A. frenatus shows the same development as A. ocellaris in the larval stage, with the successive appearance of three white bands from head to tail while adult individuals have only one. These bands are then lost in the reverse order that they evolved, from tail to head.\n
+
+These results suggest that the chronological loss of the bands during evolution was constrained by the sequence of appearance of the bands during development and that there is a strong link between phylogenesis (evolutionary history) and ontogenesis (individual development). This leads to the hypothesis that band formation is controlled by a precise genetic mechanism and depends on the antero-posterior polarity of the fish. These mechanisms have yet to be discovered.
+"
+                />
+
+            <TextView
+                android:id="@+id/ghj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Finally, what are the stripes for?"
+                />
+            <TextView
+                android:id="@+id/ggn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To answer this question, we compared the diversity of white-stripe patterns found in natural clownfish communities with the diversity found in communities where the diversity of white stripe patterns would be distributed completely at random. Through these simulations, we were able to show that the probability of having clownfish species with the same number of bands in the same region was very rare.\n
+Several ecological factors can influence this non-random distribution and it is likely that the number of white bands allows clownfish species to recognise each other. This recognition is essential in the social organisation of these fish, which live among anemones where several species can coexist. And it is this very recognition that allows Nemo and his father to find each other at the other end of the ocean – a happy ending for one and all.
+"
+                />
+
+            <ImageView
+                android:id="@+id/pl"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_04d" />
+            <TextView
+                android:id="@+id/hgr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Nemo and his father show off their characteristic three stripes in Finding Nemo (DisneyPixar, 2003)"
+                />
+
+            <TextView
+                android:id="@+id/jj.j"
+                android:layout_margin="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://theconversation.com/why-does-nemo-the-clownfish-have-three-white-stripes-the-riddle-solved-at-last-104176"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/generateNextTreasureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_treasure_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

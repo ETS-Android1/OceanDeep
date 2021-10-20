@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C3_Adult">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25 Ship Crewmen On The Scariest Experience They’ve Had Out In The Ocean"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_03a" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. A dead officer was stuffed inside of the freezer
+\n\”We had a Naval Chief Petty Officer die of a Heart Attack while Underway onboard our Sub. Since we were doing spec ops off the USSR coastline, we could not surface and come off station for 60 days. So, every time we had to go into the freezer to get food. There was the Chief laying on the shelf with his eyes wide open and frozen. He was wrapped in a cling wrap material so you could see his face clearly. So, next time you open your freezer at night. Just think of having to look at someone’s face looking back at you.\” — Fogliar\n\n
+2. The entire crew drowned in the night\n
+\”My dad told me this story once. He spent a year fishing off the coast of Alaska. One night he and another boat were racing to get the last slip, the other would have to moor in the harbor for the night. That night there was a storm and the fish in the bottom of the boat moored in the harbor all slid to one side and capsized the boat. My dad woke up the next morning to find the entire boat’s crew had drowned in their sleep.\” — 26raisans\n\n
+3. We came across two men that had been shot to death\n
+\”Worked for a bit as a deckhand on fishing boats out of San Diego. A few times we would come across deserted smaller boats (pangas) drifting with outlandishly big motors. Every time the Captain would just cut hard port or starboard to get away from them a quick as possible – I knew they were drug running boats that had probably dropped off their cargo, but I would check them out with the binoculars if we were close.
+One had two people on it – both had clearly been shot a bunch of times, and one was moving and fairly alive. I told the Captain – got a disapproving head shake and we were on our way.\” — confusedbossman\n\n
+4. A colleague of mine hung himself\n
+\”I’ve spent about 9 years out at sea and there were a couple of things that stuck with me.
+The very worst was a colleague hanging himself overboard on purpose.
+Going next to a tornado off the coast of Taiwan and the massive waves around us.
+Hearing a PA from the captain to pick up a heavy tool and head on to the back of the ship next to the handrail and it was not a drill. Turned out a ship that went past us in the opposite direction change direction and started following us. Nothing came out of it…\” — h2man\n\n
+5. My friend may or may not have faked his own death\n
+\”US Marine here, during a float on a boat to Operation: Top Secret, Destination: Unknown, one of our own were lost at sea. I guess they just jumped overboard at night or something. Kinda depressing, that’s a shitty way to die.
+Anyways, their coffin rack was adjacent to mine, and we left the rack made, and for some reason, the sheets kept on getting messed up every day. It was pain in the ass to keep making the sheets we stripped the rack. And we figured that no one should be sleeping in there since there were plenty of other vacant racks in the berthing. But someone would keep making the rack, and messing the sheets up in the morning.
+I know aircraft carriers are big, but could someone really fake their own death on one and get away with it? There’s no way someone would be sleeping there, because we’d notice someone climbing up on the top bunk, and the duty would have been posted at the entrances to the berthing. It was just creepy seeing the rack being made neatly and then messed up in the morning.\” — KungFuDabu\n\n
+6. Two stowaways suffered from a brutal death\n
+\”Two stowaways decided that it would be a good idea to crawl up the anchor chain of our panamax tanker (to give you an idea, each link weighs 365 pounds) and hide in the anchor chain locker.
+We relocated on order of port authorities and re-dropped anchor. ‘Dropping anchor’ is basically that, you just let gravity do it’s thing (with a bit of braking). Next thing we know is that red mush is coming out of the hawsehole. Basically those guys were stuck in a room where 365-pound pieces of steel are thrown everywhere.
+Had to send a few filipinos down into the anchor locker with a power washer to clean out the rest.\” — Kingfisher_ybw\n\n
+7. A man died from fumes while cleaning a cargo tank\n
+\”Not me but my chief engineer always recalls a story of when a AB died while cleaning a cargo tank due to the fumes, he said having lunch with him a few minutes prior to everyone running out on deck to see what the emergency was to only make it there as his lifeless body was dragged out the manhole was the eeriest feeling ever. They were well offshore as well so their only option was to store his body in one of the walk-in coolers. They just wrapped his body in a bed sheet and plopped him down on the floor of it no different then if he were the rack of ribeyes they had thawing out. Made getting your milk in the morning for your cereal very difficult.\” — skorfab\n\n
+8. Some poor soul jumped ship and disappeared into the Atlantic\n
+\”We were heading off at night during the winter gales and about 5 hours offshore around midnight I finished my shift and headed off to a crafty little platform at the stern where I could toke my nightly reefer in peace and I saw the massive bright ships spotlights scanning slowly and methodically back and forth across the waves. I guessed this was for a jumper and sitting there slightly baked I could imagine perhaps glimpsing a last sight of some poor doomed soul struggling in the chop and wake before disappearing off into the vast black expanse of the Atlantic. An office later confirmed the spotlights that night were for someone who had apparently jumped off a ship that had passed in the opposite direction.\” — Vulture1980
+9. We found a man that was only half alive\n
+\”Found a wrecked up yacht off the coast of Bermuda with one dead man and one half drunk and injured man. We thought no one was alive until the one guy screeched at us.\” — blackbutters\n\n
+10. I saw a skull floating in the water\n
+\”Me and two friends go down and rent a boat on Lake Okeechobee in Florida. We get a ~30 foot pontoon boat that has a cover although there’s no cabin or anything under the main deck. It’s winter in South Florida so it’s cool but not cold, thus we decide to just sleep on the boat instead of setting up a camp. We plan on spending 3 days and 2 nights on the lake. We spend our time drinking, fishing, and playing games.
+It’s sometime on the second night when I just wake up. I’m still drunk from our previous activities, but my senses are on overdrive and I just feel aware of something. I was sleeping towards the back of the boat while my friends are at the front. It’s eerily calm with no waves in the water. We were about ~250 feet from shore with land on our port side. I started scanning the treeline looking for… something. Nothing on land, so I scan the water on the port side. Nothing. So I scan the water aft of the boat. Nothing. I didn’t want to disturb my friends up front so I scan the water on the starboard side. That’s when I saw it.
+A skull floating in the water with just the eye sockets and part of the nasal cavity sitting there in the water looking right at me about 50 feet away. An immediate sense of dread took me. It was the most scared I’d ever been in my life. Then an even worse feeling took over — calmness and the sudden urge to jump in the water. I had the notion that I would be at home and at peace if I just jumped into the water. Before I could act on it, I think one of my friends stirred in their sleep because I heard a beer bottle start rolling near the front of the boat.
+This snapped me out of it and the feeling of dread returned. I yelled at them to get up while I moved to start the engines. One doesn’t respond at all while the other drunkingly tells me to fuck off. I yell again that I’m not fucking around and nothing. I’m about to pull the starter on the engine/yell again at my friends when I hear something. I freeze and listen closely…a very faint splashing sound that is slowly getting closer. I forget about yelling at my friends and focus on starting the engine. I pull and pull and pull on the started and nothing. In between the pulls, I hear the splashing getting closer but I don’t dare look at the direction of the noise. Finally, the engine starts and I punch it out of there. I must have gone 30 miles before I came to a stop to conserve fuel. Until the sun rose and my friends woke up, I spent the rest of the night scanning the waters just in case.
+I had to make up a bullshit excuse to explain to my friends why we were so far away from our previous spot. I wanted to tell them, but I doubt they would believe me. When I got home I did some research and apparently native American tribes possibly used the lake as a burial ground plus there are thought to be the bodies of many victims of hurricanes throughout the decades laying in the lake. Fishermen have found many human bones over the years.
+This was over six years ago and I have yet to set foot near any body of water larger than my shower. No lakes, oceans, rivers, water parks, pools, hot tubs, nothing. I don’t blame you if you don’t believe some random guy on the internet. Many times I tried to write it off as my drunk self seeing things. However, I can’t write off the feeling of wanting to jump into the water with something, real or not, that struck me with terror just a moment ago. Thinking about that feeling of wanting to go into the water with whatever was out there chills me to this day.\” — Lake_Throwaway\n\n
+11. We discovered an empty life raft\n
+\”Came upon an empty life raft in the middle of the Atlantic.
+In all likelihood it was probably an ‘accidental discharge.’ Maybe a crew member was fucking around with the release or something, who knows.
+The implications otherwise are very disturbing though. Did a ship go down with all hands without anyone making it to the raft? Was the raft abandoned for some reason? It left me feeling vaguely disturbed for a while afterwards.\” — Coastie071\n\n
+12. The doldrums slowly drove us insane\n
+\”The doldrums. You spend a year or two at sea watching the waves and winds are blowing constantly and then one day they stop. Not so much as a whisper of wind and the sea is like glass.
+It feels as if time has stopped. Realizing how creepy it feels, the captain calls for an all stop and goes dead in the water. Like a horror movie, everyone migrates topside and just stares to the horizon. No one says a word and you can hear yourself breathe. He lets the ship rest there for an hour and the sailors freak out. Panic can set in quickly with a green crew.
+The only thing the captain says when we get underway is: ‘Men, this is the doldrums.’
+Bastard knew what he was doing…\” — huskola\n\n
+13. We found bodies covered in black oil\n
+\”Out at sea, when emergencies happen it doesn’t matter who you are sometimes you have to get dirty. A line ruptured and flooded several spaces with pitch black oil. About neck high. On top of that we were sure there were a few bodies in there. Me and a buddy had to climb into the oil pool and wade through two rooms to get the pumps placed and confirm other things. Power is cut off of course so we had nothing but flashlights. Yes. We found one of the bodies. The other guy was actually elsewhere napping on the job. Probably saved his own life.\” — dancesrarely\n\n
+14. It looked like a scene out of The Walking Dead\n
+\”My buddy and I were about 20 miles west of the lower keys, in the Gulf of Mexico. We were on his Bertram looking for dolphin and wahoo when we see a boat in the distance heading our direction. We weren’t under power or anything, just drifting and drinking beer. The boat gets closer and we see smoke. It was pretty much a burned out cabin at that point, but still running. It just idled by. We yank our lines up and go run it down, luckily no charred corpses (that I could see). I kick it into neutral with a gaff and we decided to see where it came from. On the way we reported its location to Coast Guard. We drove that general direction for probably 10 miles. Didn’t see a single thing. No other boats, no life jackets, nothing. Hopefully the people who were on that boat were picked up safety. It was like something from Walking Dead. Just a burned out boat floating on by…\” — shitterplug\n\n
+15. I was tempted to commit suicide\n
+\”Halfway through an 8 month deployment we found ourselves in a dense fog in the middle of calm seas. The way the fog was sitting made it look like a soft white sand beach was about 30 feet away from the ship. I had such a strong urge to jump off the ship and swim to that little white sand beach that I had to force myself to go below deck. I knew, deep down, that there was no beach, but my eyes and brain were telling me that was what I was looking at, and the peace I imagined sitting on that little beach was incredibly tempting.\” — app134\n\n
+16. We pulled bloating bodies out of the water\n
+\”Hmm… not the Ocean so I’m a bit out of place, but I worked as deck hand on the Maid of the Mist in Niagara Falls. Worked there two summers in a row. We had to pull a floating body out of the water once each of those years. Apparently, it’s pretty common.
+Well… we had to tow it to shore anyway. Fun stuff. The federal police (FBI, RCMP) for both countries had to come because the Niagara river splits the US and Canada so no one really knows where the bodies are from at first.
+So yeah seeing a couple soggy bloated bodies was pretty fucked up for me.\” — OscarWilde1854\n\n
+17. An alcoholic accidentally fell overboard\n
+\”Not me, but my brother was stationed in Hawaii, and is currently in the coast guard. His first week on island, he’s told to investigate a homeless man who was spotted a couple of hundred miles off shore.
+Apparently he wasn’t found offshore, and the two men who called it in were involved in his death. He went on to tell me that a couple of longshore fishermen needed one more man for their voyage, but couldn’t find anyone, so what do they do? Obviously go to the park and see if a homeless man wants to make a couple hundred bucks, duh.
+Anyway, while out at sea, the homeless guy, who was an alcoholic, started to detox, got disoriented, and fell overboard. The fishermen noticed him missing after a few hours, and saw he fell overboard (they might have been anchored at that spot, idk) These guys call the coast guard, tell them they have a man overboard, get the guy back onboard, and stuff him in one of the freezers. My brother said seeing a dead man frozen solid in a freezer was a pretty shitty way to start his time in paradise.
+Oh, and the guys didn’t get charged either, because apparently they haven’t persecuted a ‘shanghai’ case in about 100 years.\” — kayfrain\n\n
+18. Boats would randomly disappear from the radar\n
+\”Deep fog, like I couldn’t see the front of the yacht (sailing), and it was only 50 foot.
+The real creepy part came from the radar system tracking the boats and ships around us. Our radar, not being a commercial shipping or fishermen spec, was not quite as accurate so sometimes boats would disappear, be right on top of us, or appear in sight but not on radar.
+That, on top of the sheer quantity of marine debris throughout the ocean, made me really scared that some boats had sunk when they dropped off radar.\” — Bainosaur\n\n
+19. We found a child’s lifejacket in the water\n
+\”I was Bosun on a three masted schooner, we were sailing down the coast of Brazil and our lookout spotted something orange in the water. Checked it out with binoculars, determined in was a lifejacket so we put the rescue boat in the water and myself and another crew member went to retrieve it. Turned out it was a child’s lifejacket, lots of growth and all the distinguishing marks had faded on it so it had been in the ocean for a while. Thankfully no remains came out with it. No idea where it came from or what happened but pulling a child’s life jacket out of the water is a somber experience. Left us pretty chilled.\” — capn_r3db3ard\n\n
+20. He saw the ghost of a dog running around on deck\n
+\”Not me, but my dad’s a captain and has some stories. Apparently there’s some seasickness medication that’s also mildly hallucinogenic, which has caused some problems in the past. Notably, one dude (who had never been that far out to sea before) just ripped off his lifejacket, said \”I didn’t sign up for this,\” and tried to walk off the back of the boat. They had to restrain him, after which he went kinda dead in the eyes for a few hours until he recovered.
+Another dude claimed to see a dog running around on deck.\” — inside-us-only-stars\n\n
+21. A cyclone tore the entire place to shreds\n
+\”I was on a research vessel south of the Solomon islands after a cyclone had torn the place to shreds. Come 3am its time to lower the instrument (a CTD with Nisken bottle rosette for those interested ) and turn on the search lights over the quaterdeck. The ocean surface is awash with coconut palms, bits of wood, outdoor furniture and so on. The islands had been swept clean and the ship was sitting in a vast field of floating debris. Mesmerized by this I kept staring at it all when I noticed a small pink shape with what appeared to be arms, legs and a head. My heart almost stopped beating. A child? Closer inspection revealed it was a child’s doll. But for those few seconds… horrific.\” — dgblarge\n\n
+22. The ship suffered from unknown damage\n
+\”Up by Alaska in rough sees. Our office was below the waterline, on the outside of the ship, right below a sponson. There was a full-size I-beam running around the outside edge of the office. It was probably 10 inches wide and we used is as a shelf, storing full-size binders on it. One day in rough weather six of us were in the office (three officers, three enlisted) when we heard an ENORMOUS bang, so loud that our ears rang and all of us jumped out of our seats. After checking to make sure we weren’t taking on water (and calling Damage Control) we started looking around to determine what could have caused it. We couldn’t find anything; nothing had come loose, nothing had fallen, the dry tank below the office was still dry, etc. We eventually noticed that the I-beam had cracked. Not a hairline fracture, not a little split, but the entire beam had separated lengthwise by about 5mm! We took a wave up under the sponson with so much energy that it bowed in the hull of the ship and split the beam, but the beam didn’t ever go back to the original length. The crack was also precise and even; you could slide a pencil in the gap all the way back to the bulkhead. In fact, the split was so wide they couldn’t weld it directly closed. They had to cut a 5mm shim to fill the gap. It was amazing, and we had hundreds of people come through the office for the next couple of weeks to see it. A couple of people tried to calculate the energy needed to instantly separate the I-beam that was 4 feet away from where we were sitting but it was too scary to contemplate.\” — UniqueMumbles\n\n
+23. I was trapped on a ship during a hurricane\n
+\”I was on ship during Hurricane Katrina in the Gulf of Mexico. During the worst of it the wind made the most eeriest noises and the ship was creaking and making all sorts of metal on metal noises a ship shouldn’t make.\” — Rumpleshite\n\n
+24. We found disturbing wreckage after a tsunami\n
+\”Was on a fishing trip off the coast of Oregon. This was about a year after the big tsunami in Japan. The captain saw something off in the distance, so we went to look. It was a small refrigerator with Japanese writing on it. Just creepy to know that probably washed out of someone’s apartment…\” — stickben\n\n
+25. A shark appeared out of nowhere\n
+\”We did a man overboard drill on the way to Hawaii which includes throwing a dummy into the water. I went portside to see the experience in less than one minute, and by the time I reached the water there was already a 8 foot shark waiting near the dummy.\” — gtaguy75  \n\n
+
+https://thoughtcatalog.com/holly-riordan/2017/03/25-ship-crewmen-on-the-scariest-experience-theyve-had-out-in-the-ocean/
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C8_Adult">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mysterious life lurks there"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_08a" />
+            <TextView
+                android:id="@+id/ggggh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="skeleton of the ruby seadragon visualized using microcomputed tomography. (Image credit: Josefin Stiller, Nerida Wilson and Greg Rouse)" />
+
+            <TextView
+                android:id="@+id/dejhg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Though 94 percent of life on Earth is aquatic, about two-thirds of all marine life remains unidentified. New species are constantly being discovered, raising more questions about marine life.
+This year, the SUNY College of Environmental Science and Forestry's (ESF) annual list of the Top 10 New Species included a striking red species of sea dragon that remained undiscovered despite living in shallow waters off the western coast of Australia.
+Other recent discoveries have included what may be the world's ugliest fish,as well as a ghostly octopod and a \”ninja\” shark with a dimly glowing head.
+\n\nhttps://www.livescience.com/55015-amazing-ocean-facts.html" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

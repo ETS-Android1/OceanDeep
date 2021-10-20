@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C5_Child">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/generateNextTreasureButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is the fastest fish in the ocean?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/bbbbbbbbbb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not all experts agree, but at top speeds of nearly 70 mph, the sailfish is widely considered the fastest fish in the ocean."
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                app:layout_constraintHorizontal_bias="0.444"
+                app:srcCompat="@drawable/_05a" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Clocked at speeds in excess of 68 mph, some experts consider the sailfish the fastest fish in the world ocean. Easily recognized, sailfish are named for the spectacular sail-like dorsal fin that extends for nearly the entire length of their silver-blue body. Additionally, the sailfish's upper jaw is far longer than its lower jaw, forming a distinctive bill that looks like—and sometimes acts like—a spear.\n\n
+Often working together in groups of two or more, swift sailfish thrash at and disrupt schools of smaller fish such as sardines and anchovies, thus allowing each sailfish to more easily snag its meals. The sailfish's spear-like bill also comes in handy for slashing at larger prey fish, which stuns them into submission. Together, sailfish engage their huge dorsal fins, creating a fence around their prey to prevent their victims from escaping their clutches.\n\n
+Sailfish are a type of billfish, which also includes marlins, swordfish, and roundscale spearfish. Billfish are pelagic and prefer the warmer waters of the Atlantic and Pacific. They are often found in groups, feeding on smaller fish, crustaceans, and cephalopods (octopus, squid, and cuttlefish).\n\n
+Though popular with sport anglers, sailfish cannot be taken commercially in U.S. waters except as incidental catch in Pacific longline and gillnet fisheries. Possession of sailfish is prohibited on commercial fishing vessels in the Atlantic.\n\n
+https://oceanservice.noaa.gov/facts/fastest-fish.html
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/generateNextTreasureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_treasure_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
