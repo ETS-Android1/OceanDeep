@@ -1,4 +1,4 @@
-# OceranDeep
+# OceanDeep
 An Android  encyclopedia application prototype group project <br/>
 *Some features are working but as a whole, is incomplete<br/>
 <br/>
